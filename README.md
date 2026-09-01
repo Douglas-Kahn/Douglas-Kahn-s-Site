@@ -15,3 +15,13 @@ Upload the CONTENTS of this folder to the repository root (not the ZIP itself).
 - Retailer links
 - Contact method
 - Future-project cover
+
+
+## v6 changes
+- Removed the pen-name note from the footer.
+- Updated the ABOUT page with the author note adapted from the book.
+
+
+## v7 changes
+- CONTACT simplified to the author email address.
+- Added a note that replies may not be possible to every message.
