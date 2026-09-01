@@ -1,12 +1,17 @@
-# Douglas Kahn Official Website — v1
+# Douglas Kahn Official Website — v2
 
-Static GitHub Pages website.
+Static GitHub Pages site.
 
-Upload all files and the `assets` folder to the root of the GitHub repository.
+## Included actual assets
+- `assets/algorithm-of-desire-front.png` — front cover cropped from the final wraparound cover
+- `assets/douglas-kahn-seal.png` — seal image used beside the author name
 
-Before public launch:
-1. Replace the DK seal placeholder with the final seal image.
-2. Replace cover placeholders with real cover images.
-3. Add actual retailer URLs.
-4. Finalize Contact.
-5. Connect douglaskahn.kr in GitHub Pages settings.
+## Upload
+Upload the CONTENTS of this folder to the repository root (not the ZIP itself).
+`index.html` must be at the repository root.
+
+## Still to finalize
+- Language-edition cover images and release dates
+- Retailer links
+- Contact method
+- Future-project cover
