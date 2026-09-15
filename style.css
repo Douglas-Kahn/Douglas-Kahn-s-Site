@@ -55,10 +55,10 @@ main{min-height:70vh}
 .format strong{display:block;font-family:Arial,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
 .retailers{color:#4a463e;font-size:15px}
 
-.about-layout{display:grid;grid-template-columns:minmax(260px,360px) minmax(0,1fr);gap:42px;align-items:start}
+.about-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:46px;align-items:start}
 .about-figure{margin:0}
-.about-image{width:100%;height:auto;border:1px solid var(--line);background:rgba(255,254,250,.7)}
-.about-copy{max-width:720px;font-size:19px}
+.about-image{width:100%;height:auto;display:block}
+.about-copy{max-width:660px;font-size:18px}
 .about-copy p{margin:0 0 18px}
 .about-quote{margin:4px 0 22px;font-size:24px;line-height:1.35}
 .about-signoff{margin-top:28px;font-size:17px}
@@ -81,8 +81,8 @@ main{min-height:70vh}
   .book-cover{max-width:220px}
   .detail-cover{max-width:240px}
   .download-card{max-width:240px}
-  .about-layout{gap:24px}
-  .about-image{max-width:360px}
-  .about-copy{font-size:18px}
+  .about-layout{gap:26px}
+  .about-image{max-width:240px;margin:0 auto}
+  .about-copy{font-size:17px}
   .about-quote{font-size:22px}
 }
