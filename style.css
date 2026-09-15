@@ -54,7 +54,15 @@ main{min-height:70vh}
 .format{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
 .format strong{display:block;font-family:Arial,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
 .retailers{color:#4a463e;font-size:15px}
-.about-box{max-width:700px;font-size:19px}
+
+.about-layout{display:grid;grid-template-columns:minmax(260px,360px) minmax(0,1fr);gap:42px;align-items:start}
+.about-figure{margin:0}
+.about-image{width:100%;height:auto;border:1px solid var(--line);background:rgba(255,254,250,.7)}
+.about-copy{max-width:720px;font-size:19px}
+.about-copy p{margin:0 0 18px}
+.about-quote{margin:4px 0 22px;font-size:24px;line-height:1.35}
+.about-signoff{margin-top:28px;font-size:17px}
+.about-signoff span{display:inline-block;margin-top:6px;font-size:13px;letter-spacing:.06em;color:var(--muted);font-style:italic}
 .contact-options{display:grid;grid-template-columns:1fr 1fr;gap:22px}
 .contact-box{border:1px solid var(--line);padding:24px;background:rgba(255,254,250,.55)}
 .contact-box h3{margin-top:0}
@@ -68,9 +76,13 @@ main{min-height:70vh}
   .nav{gap:6px;margin-top:11px}
   .nav a{padding:6px 10px;font-size:10px}
   .hero{padding:58px 0 48px}
-  .book-grid,.editions,.contact-options{grid-template-columns:1fr}
+  .book-grid,.editions,.contact-options,.about-layout{grid-template-columns:1fr}
   .book-layout{grid-template-columns:1fr;gap:30px}
   .book-cover{max-width:220px}
   .detail-cover{max-width:240px}
   .download-card{max-width:240px}
+  .about-layout{gap:24px}
+  .about-image{max-width:360px}
+  .about-copy{font-size:18px}
+  .about-quote{font-size:22px}
 }
