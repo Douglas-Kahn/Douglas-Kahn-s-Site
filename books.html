@@ -1,2 +1,222 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Books — Douglas Kahn</title><meta content="Books by Douglas Kahn, including The Algorithm of Desire: Human Civilization in the Age of AI." name="description"/><meta content="index,follow" name="robots"/><link href="https://douglaskahn.kr/books.html" rel="canonical"/><meta content="Douglas Kahn" property="og:site_name"/><meta content="website" property="og:type"/><meta content="Books — Douglas Kahn" property="og:title"/><meta content="Books by Douglas Kahn, including The Algorithm of Desire: Human Civilization in the Age of AI." property="og:description"/><meta content="https://douglaskahn.kr/books.html" property="og:url"/><meta content="https://douglaskahn.kr/assets/algorithm-of-desire-front.png" property="og:image"/><meta content="summary" name="twitter:card"/><meta content="Books — Douglas Kahn" name="twitter:title"/><meta content="Books by Douglas Kahn, including The Algorithm of Desire: Human Civilization in the Age of AI." name="twitter:description"/><meta content="https://douglaskahn.kr/assets/algorithm-of-desire-front.png" name="twitter:image"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://douglaskahn.kr/books.html","name":"Books — Douglas Kahn","description":"Books by Douglas Kahn, including The Algorithm of Desire: Human Civilization in the Age of AI.","isPartOf":{"@id":"https://douglaskahn.kr/#website"}}</script><link href="style.css" rel="stylesheet"/></head><body data-page="books"><header class="site-header"><div class="site-shell header-inner"><div class="brand-row"><a class="brand" href="index.html">Douglas Kahn</a><img alt="Douglas Kahn seal" class="seal-image" src="assets/douglas-kahn-seal.png"/></div><nav aria-label="Primary navigation" class="nav"><a data-page="home" href="index.html">HOME</a><a data-page="books" href="books.html">BOOKS</a><a data-page="about" href="about.html">ABOUT</a><a data-page="contact" href="contact.html">CONTACT</a></nav></div></header><main><section class="section"><div class="site-shell"><div class="eyebrow">Books</div><h2>Published &amp; In Development</h2><p class="section-intro">Completed works appear in full color. Works still taking shape remain deliberately unfinished.</p><div class="book-grid"><article class="book-card"><a href="algorithm-of-desire.html"><img alt="The Algorithm of Desire front cover" class="book-cover current-cover" src="assets/algorithm-of-desire-front.png"/><h3>The Algorithm of Desire</h3><p class="subtitle">Human Civilization in the Age of AI</p></a><div class="status">Published / Editions in progress</div><a class="text-link" href="algorithm-of-desire.html">VIEW BOOK</a></article><article class="book-card"><div class="cover-placeholder future"><div class="cover-title">AI<br/>INFRASTRUCTURE</div><div class="cover-author">UNTITLED PROJECT</div></div><h3>Untitled Project</h3><p class="subtitle">A book about AI infrastructure</p><div class="status">In Development</div></article></div></div></section></main><footer class="site-footer"><div class="site-shell">© 2026 Douglas Kahn. All rights reserved.</div></footer><script src="script.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>Books — Douglas Kahn</title>
+  <meta content="The Algorithm of Desire by Douglas Kahn in English, French, Japanese, and Korean editions." name="description"/>
+  <meta content="index,follow" name="robots"/>
+  <link href="https://douglaskahn.kr/books.html" rel="canonical"/>
+  <meta content="Douglas Kahn" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Books — Douglas Kahn" property="og:title"/>
+  <meta content="The Algorithm of Desire in English, French, Japanese, and Korean editions." property="og:description"/>
+  <meta content="https://douglaskahn.kr/books.html" property="og:url"/>
+  <meta content="https://douglaskahn.kr/assets/algorithm-of-desire-front.png" property="og:image"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="Books — Douglas Kahn" name="twitter:title"/>
+  <meta content="The Algorithm of Desire in English, French, Japanese, and Korean editions." name="twitter:description"/>
+  <meta content="https://douglaskahn.kr/assets/algorithm-of-desire-front.png" name="twitter:image"/>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://douglaskahn.kr/books.html",
+      "name": "Books — Douglas Kahn",
+      "description": "The Algorithm of Desire by Douglas Kahn in English, French, Japanese, and Korean editions.",
+      "isPartOf": {"@id": "https://douglaskahn.kr/#website"}
+    }
+  </script>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+    .edition-gallery {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .language-edition {
+      min-width: 0;
+      border: 1px solid var(--line);
+      padding: 16px 14px 18px;
+      background: rgba(255, 254, 250, .6);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .edition-main-link {
+      display: block;
+    }
+
+    .edition-cover-frame {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .edition-cover-image-large {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 12px rgba(0, 0, 0, .14));
+      transition: transform .18s ease;
+    }
+
+    .edition-main-link:hover .edition-cover-image-large {
+      transform: translateY(-3px);
+    }
+
+    .edition-language {
+      margin-top: 18px;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .language-edition h3 {
+      margin: 7px 0 4px;
+      font-size: 19px;
+      line-height: 1.25;
+      font-weight: 500;
+    }
+
+    .edition-subtitle {
+      margin: 0;
+      min-height: 3.2em;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    .edition-retailer {
+      margin-top: auto;
+      padding-top: 14px;
+    }
+
+    .edition-retailer a {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: .12em;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 3px;
+    }
+
+    @media (max-width: 720px) {
+      .edition-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .language-edition {
+        padding: 12px 10px 15px;
+      }
+
+      .edition-language {
+        margin-top: 13px;
+      }
+
+      .language-edition h3 {
+        font-size: 17px;
+      }
+
+      .edition-subtitle {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body data-page="books">
+  <header class="site-header">
+    <div class="site-shell header-inner">
+      <div class="brand-row">
+        <a class="brand" href="index.html">Douglas Kahn</a>
+        <img alt="Douglas Kahn seal" class="seal-image" src="assets/douglas-kahn-seal.png"/>
+      </div>
+      <nav aria-label="Primary navigation" class="nav">
+        <a data-page="home" href="index.html">HOME</a>
+        <a data-page="books" href="books.html">BOOKS</a>
+        <a data-page="about" href="about.html">ABOUT</a>
+        <a data-page="contact" href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="site-shell">
+        <div class="eyebrow">Books</div>
+        <h2>The Algorithm of Desire — Four Editions</h2>
+        <p class="section-intro">One inquiry into desire, civilization, and AI—now in English, French, Japanese, and Korean.</p>
+
+        <div class="edition-gallery">
+          <article class="language-edition">
+            <a class="edition-main-link" href="algorithm-of-desire.html">
+              <div class="edition-cover-frame">
+                <img alt="English edition cover of The Algorithm of Desire" class="edition-cover-image-large" src="assets/algorithm-of-desire-front.png"/>
+              </div>
+              <div class="edition-language">English</div>
+              <h3>The Algorithm of Desire</h3>
+              <p class="edition-subtitle">Human Civilization in the Age of AI</p>
+            </a>
+            <div class="edition-retailer">
+              <a href="https://www.amazon.com/s?k=The+Algorithm+of+Desire+Douglas+Kahn" rel="noopener noreferrer" target="_blank">Amazon</a>
+            </div>
+          </article>
+
+          <article class="language-edition">
+            <a class="edition-main-link" href="algorithm-of-desire.html#editions">
+              <div class="edition-cover-frame">
+                <img alt="French edition cover of L’Algorithme du Désir" class="edition-cover-image-large" loading="lazy" src="assets/algorithm-of-desire-fr-front.jpg"/>
+              </div>
+              <div class="edition-language">Français</div>
+              <h3>L’Algorithme du Désir</h3>
+              <p class="edition-subtitle">La civilisation humaine à l’ère de l’IA</p>
+            </a>
+            <div class="edition-retailer">
+              <a href="https://www.amazon.com/LALGORITHMEDU-D%C3%89SIR-civilisation-humaine-French/dp/B0HK521SNR/qid=1789993478" rel="noopener noreferrer" target="_blank">Amazon</a>
+            </div>
+          </article>
+
+          <article class="language-edition">
+            <div class="edition-main-link">
+              <div class="edition-cover-frame">
+                <img alt="Japanese edition cover of The Algorithm of Desire" class="edition-cover-image-large" loading="lazy" src="assets/algorithm-of-desire-jp-front.png"/>
+              </div>
+              <div class="edition-language">日本語</div>
+              <h3>欲望のアルゴリズム</h3>
+              <p class="edition-subtitle">AI以後の人類文明</p>
+            </div>
+          </article>
+
+          <article class="language-edition">
+            <a class="edition-main-link" href="https://bookk.co.kr/bookStore/6abbe52b348ae0560eb2be5f" rel="noopener noreferrer" target="_blank">
+              <div class="edition-cover-frame">
+                <img alt="《욕망의 알고리듬》 한국어판 표지" class="edition-cover-image-large" loading="lazy" src="assets/algorithm-of-desire-ko-front.png"/>
+              </div>
+              <div class="edition-language">한국어</div>
+              <h3>욕망의 알고리듬</h3>
+              <p class="edition-subtitle">AI 이후의 인류문명</p>
+            </a>
+            <div class="edition-retailer">
+              <a href="https://bookk.co.kr/bookStore/6abbe52b348ae0560eb2be5f" rel="noopener noreferrer" target="_blank">BOOKK</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-shell">© 2026 Douglas Kahn. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
