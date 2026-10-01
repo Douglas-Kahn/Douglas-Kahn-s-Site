@@ -109,8 +109,55 @@
       padding-bottom: 3px;
     }
 
+    .future-project-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .future-project-grid .book-card {
+      padding: 16px 14px 18px;
+    }
+
+    .future-project-grid .cover-placeholder {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      border: 1px solid #777268;
+      background: #e8e3d7;
+      padding: 28px 16px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: #3f3b34;
+    }
+
+    .future-project-grid .cover-title {
+      margin: auto 0;
+      font-size: clamp(20px, 2.3vw, 28px);
+      line-height: 1.08;
+      letter-spacing: .04em;
+    }
+
+    .future-project-grid .cover-author {
+      font-size: 9px;
+      letter-spacing: .12em;
+    }
+
+    .future-project-grid .book-card h3 {
+      font-size: 19px;
+    }
+
+    .future-project-grid .book-card .subtitle {
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
     @media (max-width: 720px) {
-      .edition-gallery {
+      .edition-gallery,
+      .future-project-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 14px;
       }
@@ -211,6 +258,18 @@
             <div class="edition-retailer">
               <a href="https://bookk.co.kr/bookStore/6abbe52b348ae0560eb2be5f" rel="noopener noreferrer" target="_blank">BOOKK</a>
             </div>
+          </article>
+        </div>
+
+        <div class="future-project-grid">
+          <article class="book-card">
+            <div class="cover-placeholder future">
+              <div class="cover-title">AI<br/>INFRASTRUCTURE</div>
+              <div class="cover-author">UNTITLED PROJECT</div>
+            </div>
+            <h3>Untitled Project</h3>
+            <p class="subtitle">A book about AI infrastructure</p>
+            <div class="status">In Development</div>
           </article>
         </div>
       </div>
