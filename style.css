@@ -69,11 +69,13 @@ main{min-height:70vh}
 .note{color:var(--muted);font-size:14px}
 .site-footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-family:Arial,sans-serif;font-size:12px;text-align:center}
 .favorites-intro{max-width:690px;margin:0 0 34px;color:#444139}
+.favorites-title{margin-bottom:28px}
 .favorites-list{max-width:760px;border-top:1px solid var(--line)}
 .favorite-entry{display:grid;grid-template-columns:68px minmax(0,1fr);gap:15px;padding:17px 4px;border-bottom:1px solid var(--line)}
 .favorite-thumb{width:68px;aspect-ratio:1;display:grid;place-items:center;background:#262824;color:var(--paper);font-size:56px;line-height:1;font-weight:500}
 .favorite-thumb.light{background:#d8d1c1;color:#24221e}
-.favorite-film{width:68px;height:92px;display:grid;grid-template-rows:13px minmax(0,1fr) 13px;overflow:hidden;background:#262824;color:var(--paper)}
+.favorite-cover{width:68px;height:68px;display:block;object-fit:contain;background:#e8e4da}
+.favorite-film{width:68px;height:68px;display:grid;grid-template-rows:12px minmax(0,1fr) 12px;overflow:hidden;background:#262824;color:var(--paper)}
 .film-holes{display:flex;align-items:center;justify-content:space-evenly;padding:0 3px}
 .film-holes i{display:block;width:7px;height:5px;background:var(--paper)}
 .film-title{display:grid;place-items:center;border-top:1px solid #625f57;border-bottom:1px solid #625f57;font-family:Arial,sans-serif;font-size:10px;line-height:1;letter-spacing:.2em;padding-left:.2em}
@@ -101,7 +103,7 @@ main{min-height:70vh}
   .about-quote{font-size:22px}
   .favorite-entry{grid-template-columns:56px minmax(0,1fr);gap:11px;padding:14px 2px}
   .favorite-thumb{width:56px;font-size:46px}
-  .favorite-film{width:56px;height:78px}
+  .favorite-cover,.favorite-film{width:56px;height:56px}
   .film-holes i{width:6px;height:4px}
   .favorite-title-row{display:block}
   .favorite-title{font-size:15px}
